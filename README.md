@@ -1,5 +1,9 @@
 # Pokédex using Pokeapi
 
+## PREVIEW
+
+https://pokedex-dtahcmlh5.vercel.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
