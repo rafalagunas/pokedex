@@ -12,7 +12,7 @@ const Header: FC<HeaderProps> = ({ history }) => {
     }
 
     const navigate = () => {
-        history.push(`/individual/${input}`);
+        history.push(`/individual/${input.toLowerCase()}`);
     }
 
     return (
