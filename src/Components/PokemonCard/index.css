@@ -1,0 +1,35 @@
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-cover {
+  height: 360px;
+}
+/*
+  -remove the classes below if you have the 'group-hover'property added in your tailwind config file
+  -also remove the class from the html template
+  */
+.content-div:hover .fd-cl {
+  opacity: 0.25;
+  color: #000;
+}
+.content-div:hover .fd-sh {
+  opacity: 1;
+}
+
+.individualCard {
+  width: 100vw; /* Can be in percentage also. */
+  height: auto;
+  margin: 10 0;
+  padding: 40px;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+
+.cardImage {
+  align-self: center;
+  margin: 0 auto;
+}
